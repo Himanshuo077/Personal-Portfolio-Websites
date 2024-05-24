@@ -1,0 +1,654 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    width: 90vw;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 2vw;
+    box-shadow: 0px 1px 1px rgb(192, 191, 191);
+    
+}
+
+.first_nav h4{
+    margin-left: 10px;
+    font-size: 2vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.first_nav h4 span{
+    color: orange; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.second_nav{
+    display: block;
+    margin-left: 20vw;
+}
+.second_nav ul{
+    margin: 10vw;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+.second_nav ul li{
+    /* margin: 2vw; */
+    
+    font-size: 1.45vw;
+    font-weight: 700;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    float: left;
+    color: white;
+}
+.second_nav li a:hover{
+    padding: 2px;
+    color: red;
+    border-bottom: 2px solid red;
+
+}
+.second_nav a{
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
+.second_nav img{
+    display: none;
+    margin-top: 2.5vw;
+    height: 3vh;
+    width: 2vw;
+    align-items: center;
+
+}
+
+main{
+    margin: 20px;
+    padding: 60px;
+    display: flex;
+    border-bottom: 2px solid gray;
+    background-color: #0A1E4C;
+}
+.contact_button{
+    color: black;
+    height: 20px;
+    border-radius: 10px;
+    background-color: brown;
+    font-size: 10px;
+    box-shadow: 1px 4px 4px black;
+    text-align: center;
+}
+.contact_button:hover{
+   
+    background-color: blueviolet;
+    
+}
+.contact_button a{
+    
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact_button img{
+    height: 12px;
+    width: 20px;
+    vertical-align: middle;
+}
+.left{
+    display: block;
+    width: 50%;
+    padding: 30px;
+    height: 200px;
+}
+.left h1{
+    color: white;
+    font-size: 2.8vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.left .span1{
+    font-size: 3vw;
+    color: green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.left h1 span{
+    font-size: 3.8vw;
+    color: orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.left p span{
+    color: brown;
+    font-weight: 700; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.link{
+    display: flex;
+    align-items:middle;
+    gap: 8px;
+}
+.link img{
+    
+    margin-top: 10px;
+    height: 15px;
+    width: 20px;
+    background-color: rgb(17, 159, 207);
+    border-radius: 5px;
+}
+.link a{
+    margin-top: 12px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right{
+    display: flex;
+    height: 200px;
+    width: 50%;
+}
+.right img{
+    display: flex;
+    margin-left: 150px;
+    border-radius: 150px;
+    border-color: yellow;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+/*---------------About page---------*/
+#About{
+    margin: 20px;
+    padding: 10px;
+    display:flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #0A1E4C;
+    border-bottom: 2px solid gray;
+    
+}
+.about_image h4{
+    color: lightgray;
+    line-height: 20px;
+    margin-left: 12px;
+    font-size: 12px;
+}
+.about_image h6{
+    display: inline;
+    font-size: 10px;
+}
+#About h1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: gray;
+    font-family:sans-serif;
+    border-bottom: 2px solid blue;
+    width: 150px;
+}
+#About h3{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: gray;
+    font-family: monospace;
+    border-bottom: 2px solid green;
+    width: 75px;
+}
+.about_profile{
+    display: flex;
+    height: 150px;
+    margin: 15px;
+    width: 150px;
+    border-radius: 150px;
+    background-color: gray;
+}
+
+#About p{
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+   
+    word-spacing: 2px;
+    line-height: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info p{
+  background-color: lightgray;
+}
+.edu_img{
+    height: 18px;
+    width: 18px;
+}
+/*---------------Skill section----------*/
+#Skill{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    /* background-color: #0A1E4C; */
+    background-image: url(black_background.jpeg);
+    background-position:center;
+}
+.simage{
+    display: flex;
+    align-items: center;
+}
+
+.skill_section h1{
+    
+    margin-left: 40%;
+    border-bottom: 2px solid blue;
+    width: 120px;
+    color: gray;
+    text-align: center;
+}
+.skill_section p{
+    line-height: 5vw;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row{
+    
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+.item{
+    padding: 0.3rem 0;
+    margin: 0.2rem 0;
+}
+.item_text{
+    display: flex;
+    font-weight: 600;
+    justify-content: flex-start;
+    position: relative;
+}
+.item_text span{
+   position: absolute;
+}
+.item_text .w-85{
+    margin-left: 85%;
+}
+.item_text .w-70{
+    margin-left: 70%;
+}
+.item_text .w-20{
+    margin-left: 20%;
+}
+.item_text .w-60{
+    margin-left: 60%;
+}
+.item_text .w-50{
+    margin-left: 50%;
+}
+.item_text .w-50{
+    margin-left: 50%;
+}
+.progress{
+    margin: 0.8rem 0;
+    height: 5px;
+    width: 100%;
+    border-radius: 10px;
+    background-color:grey;
+    overflow: hidden;
+}
+.progress_bar{
+    background-color: green;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.progress_bar.w-85{
+    width: 85%;
+}
+.progress_bar.w-70{
+    width: 70%;
+}
+.progress_bar.w-20{
+    width: 20%;
+}
+.progress_bar.w-60{
+    width: 60%;
+}
+.progress_bar.w-50{
+    width: 50%;
+}
+.progress_bar.w-50{
+    width: 50%;
+}
+/*---------Project Section--------*/
+#Project{
+    background-image: url(image.jpeg);
+    border: 2px;
+    font-size: 14px;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: lightgray;
+    font-weight: 500;
+}
+#Project h1{
+    margin-left: 30%;
+    border-bottom: 2px solid blue;
+    width: 30%;
+    color: gray;
+    text-align: center;
+}
+.Project{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+   
+}
+.pname1{
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.pname1 h3{
+    margin-top: 10px;
+}
+.pimg1 img{
+    height: 180px;
+    width: 180px;
+}
+.pimg1 .parrow1{
+    height: 12px;
+    width: 20px;
+    vertical-align: middle;
+}
+.pimg1 a{
+    text-decoration: none;
+    color: white;
+}
+.pimg1 button{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}
+.pname2{
+    border-radius: 10px;
+    width: 30%;
+    height: 70vh;
+    color: black;
+    background-color: white;
+}
+.pname2 h3{
+    margin-top: 10px;
+}
+.pimg2 img{
+    
+    height: 180px;
+    width: 180px;
+}
+.pimg2 a{
+    text-decoration: none;
+    color: white;
+}
+.pimg2 button{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}
+.pimg2 .parrow2{
+    height: 12px;
+    width: 20px;
+    vertical-align: middle;
+}
+.pname3{
+    border-radius: 10px;
+    width: 30%;
+    height: 70vh;
+    color: black;
+    background-color: white;
+}
+.pname3 h3{
+    margin-top: 10px;
+}
+.pimg3 img{
+    
+    height: 180px;
+    width: 180px;
+}
+.pimg3 a{
+    text-decoration: none;
+    color: white;
+}
+.pimg3 button{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color:green;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}
+.pimg3 .parrow3{
+    height: 12px;
+    width: 20px;
+    vertical-align: middle;
+    
+}
+/*---------Contact section--------*/
+#Contact{
+    background-image: url(thumbnail.jpeg);
+    font-size: 14px;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: lightgray;
+    font-weight: 500;
+}
+.name_section{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+}
+.email_section{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+}
+.contact_font{
+    padding: 5px;
+    text-align: center;
+    margin-left: 35%;
+    margin-bottom: 25px;
+    color: gray;
+    font-family:sans-serif;
+    border-bottom: 2px solid blue;
+    width: 25%;
+}
+.phone_number{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+}
+.message_section{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+}
+#Contact input{
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 10px;
+}
+.contact_form{
+   
+    
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 20px;
+}
+.arrow_icon{
+    align-items: center;
+    height: 12px;
+    width: 20px;
+    vertical-align: middle;
+}
+.comment_section{
+    text-align: center;
+    vertical-align:top;
+}
+textarea{
+    outline: none;
+}
+.submit_button{
+    cursor: pointer;
+    margin: 8px;
+    /* padding: 6px; */
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    height: 22px;
+    width: 70px;
+    text-align: center;
+    box-shadow: 2px 4px 5px black;
+    
+}
+.submit_button:hover{
+    background-color: blue;
+    color: white;
+}
+@media (max-width:600px) {
+    body{
+        height: 100%;
+        width: 100%;
+        
+    }
+    header{
+        flex-direction: column;
+    }
+    .container{
+        padding: 0 4vw;
+        height: 30px;
+    }
+    .second_nav ul li{
+        display: none;
+        
+    }
+    .second_nav img{
+        display: block;
+        height: 3vw;
+        width: 3vw;
+        margin-left: 40vw;
+    }
+    .second_nav button{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+        padding: 8vw;
+        width: 90vw;
+    }
+    .left{
+        width: 50%;
+        padding: 0;
+    }
+    .span1{
+        font-size: 5vw;
+    }
+    .left h1 span{
+        font-size: 5vw;
+    }
+    .right img{
+        flex-direction: column;
+        margin: 2vw;
+    }
+    #About{
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    #Skill{
+        flex-direction: column;
+        width: 90vw;
+    }
+    .skill_section h1{
+        margin-left: 25vw;
+    }
+    .skill_section p{
+        line-height: 7vw;
+    }
+    .row{
+        width: 79%;
+        margin: 8vw;
+    }
+    #Project{
+        flex-direction: column;
+        width: 90vw;
+    }
+    #Project h1{
+        margin-left: 18vw;
+        width: 45vw;
+    }
+    .Project{
+        flex-direction: column;
+    }
+    .pname1{
+        width: 70%;
+        height: 36vh;
+        margin-left: 13vw;
+    }
+    .pname2{
+        width: 70%;
+        height: 36vh;
+        margin-left: 13vw;
+    }
+    .pname3{
+        width: 70%;
+        height: 36vh;
+        margin-left: 13vw;
+    }
+    #Contact{
+        width: 90vw;
+    }
+    #Contact h1{
+        width: 44vw;
+        margin-left: 16vw;
+    }
+    
+    .contact_form{
+        width: 80vh;
+        margin-left: -34vw;
+    }
+    
+}
+
