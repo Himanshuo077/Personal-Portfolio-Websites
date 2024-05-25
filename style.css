@@ -576,7 +576,7 @@ textarea{
     main{
         flex-direction: column;
         padding: 8vw;
-        width: 90vw;
+        width: 100%;
     }
     .left{
         width: 50%;
@@ -590,19 +590,20 @@ textarea{
     }
     .right img{
         flex-direction: column;
-        margin: 2vw;
+       margin-left: 15vw;
     }
     #About{
         flex-direction: column;
-        width: 90vw;
+        width: 100%;
     }
     
     #Skill{
         flex-direction: column;
-        width: 90vw;
+        width: 100%;
     }
     .skill_section h1{
         margin-left: 25vw;
+        width: 40vw;
     }
     .skill_section p{
         line-height: 7vw;
@@ -613,42 +614,52 @@ textarea{
     }
     #Project{
         flex-direction: column;
-        width: 90vw;
+        width: 100%;
     }
     #Project h1{
-        margin-left: 18vw;
-        width: 45vw;
+       margin-left: 13vw;
+        width: 60vw;
     }
     .Project{
         flex-direction: column;
     }
     .pname1{
         width: 70%;
-        height: 36vh;
+        height: 40vh;
         margin-left: 13vw;
     }
     .pname2{
         width: 70%;
-        height: 36vh;
+        height: 40vh;
         margin-left: 13vw;
     }
     .pname3{
         width: 70%;
-        height: 36vh;
+        height: 40vh;
         margin-left: 13vw;
     }
     #Contact{
-        width: 90vw;
+        width: 100%;
     }
     #Contact h1{
         width: 44vw;
         margin-left: 16vw;
     }
-    
+    .phone_number{
+        text-align: center;
+        width: 41%;
+    }
     .contact_form{
         width: 80vh;
-        margin-left: -34vw;
+        margin-left: -24vw;
+    }
+    .comment_section{
+        width: 45%;
+        flex-direction: column;
     }
     
+    .message_section textarea{
+        width: 50vw;
+    }
 }
 
